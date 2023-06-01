@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background: #E5E5E5;
+}
+
+.cabecera {
+    /* display: flex;
+    position: absolute; */
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    margin-bottom: 35px;
+
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+.cajtitas {
+
+}
+
+
+.ContentR {
+    display: flex;
+    height: 100px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+  
+}
+
+.ContentRSubR1 {
+    height: 80px;
+    width: 80px;
+    background-image: url("../img/pizza.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.ContentRSubR2 {
+    margin: auto;
+    width: 160px;
+    height: 28px;
+}
+
+.fuenteLogo1, .fuenteLogoM, .FuenteLogo2, .tituloMainLeft {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.fuenteLogo1{
+    color: #39B24A;
+}
+
+.FuenteLogo2{
+    color: red;
+}
+.fuenteLogoM {
+    color: white;
+}
+
+
+.cabecera {
+    display: flex;
+    justify-content:space-between;
+}
+
+.ContentL {
+    width: 32%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F3F3F3;
+}
+
+
+.pie {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 150px;
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 35px;
+
+}
+
+.ContentLP {
+    width: 17%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    /* align-items: center; */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 2%;
+    color: #F3F3F3;
+}
+
+.principal{
+    display: flex;
+    justify-content:center;
+    gap: 5px;
+}
+
+.mainLeft {
+    width: 490px;
+    height: 350px;
+
+    background-image: url("../img/delivery.jpg");
+
+}
+
+.parrafoMainLe {
+    padding: 12px;
+   
+}
+
+.mainRight {
+    display: flex;
+    width: 491px;
+    height: 350px;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.mainRightSunR {
+    width: 50%;
+    
+}
+
+.tituloListaMain{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    padding-top: 42%;
+    padding-bottom: 10%;
+    text-align: center;
+    color: #222222;
+    
+
+}
+
+.ListaMain {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 25%;
+    
+    color: #222222;
+   
+}
+
+.ListaMain li{
+    padding: 5px;
+}
+
+
+.arbolito {
+    width: 92px;
+    height: 129px;
+    background-image: url("../img/PizzaFalling.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:37.8%;
+    right:14%;
+
+}
+
+
+.tituloMainLeft {
+    position:absolute ;
+    top: 11%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+    color: #FC200C;
+   
+
+
+    
+}
